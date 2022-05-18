@@ -1,7 +1,7 @@
 Global:
   debug: false
   use_gpu: true
-  epoch_num: 200
+  epoch_num: 500
   log_smooth_window: 20
   print_batch_step: 10
   save_model_dir: ./output/v3_vi_mobile
@@ -27,7 +27,7 @@ Optimizer:
   beta2: 0.999
   lr:
     name: Cosine
-    learning_rate: 0.001
+    learning_rate: 0.0003
     warmup_epoch: 2
   regularizer:
     name: L2
